@@ -257,7 +257,7 @@ a {
 }
 
 .product-box {
-  padding-bottom: 96px;
+  padding-bottom: 60px;
 }
 
 .product-box__heading {
@@ -383,6 +383,23 @@ a {
   color: #F16D7F;
 }
 
+
+.product-box__button-all{
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.product-box__button{
+  width: 212px;
+  height: 48px;
+  border: 1px solid #FF6A6A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FF6A6A;
+}
+
 .advantages {
   background-color: #222222;
   padding-top: 104px;
@@ -400,6 +417,7 @@ a {
   -ms-flex-pack: center;
   justify-content: center;
   gap: 30px;
+  display: none;
 }
 
 .advantages__item {
