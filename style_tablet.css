@@ -51,5 +51,50 @@
         margin-top: 33px;
     }
 
+    .advantages {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 48px;
+        padding-bottom: 64px;
+       
+    }
 
+    .subscribe{
+        height: 613px;
+        background-image: url('img/subscribe_tablet.jpg');
+        background-position: center;
+       
+      }
+
+    .subscribe__opacity{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 613px;
+       
+
+    }
+    #subscribe__form{
+        margin-top: 25px;
+      }
+
+      .subscribe__info{
+        padding-top: 64px;
+        
+      }
+
+    .subscribe__email{
+        padding-right: 0px;
+        padding-bottom: 140px;
+    }
+
+    .footer__brand{
+        margin-left: 32px;
+      }
+      .footer__social{
+        margin-right: 32px;
+
+      }
 }
